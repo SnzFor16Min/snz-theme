@@ -1,0 +1,33 @@
+{
+  "name": "snz-theme",
+  "publisher": "Snz",
+  "displayName": "Snz's Theme",
+  "description": "Snz's customized theme",
+  "icon": "icon.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SnzFor16Min/snz-theme.git"
+  },
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "custom",
+    "snz"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Snz's Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Snz-Theme-color-theme.json"
+      }
+    ]
+  }
+}
