@@ -26,10 +26,11 @@
     },
     // "class": "#0fc799",
     // "class.builtin": "#4d9fe3",
-    // "namespace": {
-    //   "foreground": "#b6b6b6",
-    //   "italic": true
-    // },
+    "type": "#0fc799",
+    "namespace": {
+      "foreground": "#ff9696",
+      "italic": true
+    },
     // "": {
     //   "foreground": "#ff0000",
     //   "italic": true
@@ -45,7 +46,9 @@
     // "method": "#e4e0ac",
     // "method.declaration": "#ffc86e",
     // "builtinConstant": "#c88cdc",
-    "enumMember": "#4ec6ff"
+    "enumMember": "#4ec6ff",
+    // "variable": "#bbbbbb",
+    "variable.defaultLibrary": "#4d9fe3"
   },
   "tokenColors": [
     {
@@ -55,7 +58,19 @@
       }
     },
     {
-      "scope": ["support.type", "storage.type.string", "storage.type", "support.function.builtin", "constant.language"],
+      "scope": ["entity.name.type"],
+      "settings": {
+        "foreground": "#0fc799"
+      }
+    },
+    {
+      "scope": [
+        "storage.type.string",
+        "support.function.builtin",
+        "constant.language",
+        "storage.type.built-in",
+        "storage.type.numeric"
+      ],
       "settings": {
         "foreground": "#4d9fe3"
       }
@@ -73,7 +88,13 @@
     //   }
     // },
     {
-      "scope": ["meta.function-call.generic", "entity.name.function.support"],
+      "scope": [
+        "meta.function-call.generic",
+        "entity.name.function.support",
+        "entity.name.function.call",
+        "entity.name.function.member",
+        "support.function"
+      ],
       "settings": {
         "foreground": "#e4e0ac"
       }
@@ -81,10 +102,16 @@
     {
       "scope": [
         "keyword.operator.comparison",
-        "keyword.operator.assignment",
+        "keyword.operator.assignment.python",
         "keyword.operator.arithmetic",
         "keyword.operator.logical.go",
-        "keyword.operator.address"
+        "keyword.operator.logical.cpp",
+        "keyword.operator.address",
+        "keyword.operator.increment",
+        "keyword.operator.decrement",
+        "keyword.operator.bitwise",
+        "punctuation.separator.pointer-access",
+        "keyword.operator.pointer"
       ],
       "settings": {
         "foreground": "#ffffff"
@@ -104,14 +131,30 @@
         "keyword.const",
         "keyword.var",
         "keyword.other",
-        "entity.name.function.preprocessor"
+        "storage.modifier",
+        "keyword.operator.new",
+        "storage.type.class",
+        "storage.type.modifier",
+        "keyword.operator.delete",
+        "keyword.operator.sizeof",
+        "keyword.operator.cast",
+        "storage.type.struct",
+        "storage.type.template",
+        "keyword.operator.noexcept",
+        "storage.type.function.python"
       ],
       "settings": {
         "foreground": "#C88CDC"
       }
     },
     {
-      "scope": ["constant"],
+      "scope": [
+        "constant",
+        "variable.upper-case",
+        "entity.name.other.preprocessor.macro.predefined",
+        "entity.other.attribute-name.pragma.preprocessor",
+        "support.variable.magic"
+      ],
       "settings": {
         "foreground": "#4ec6ff"
       }
@@ -122,12 +165,6 @@
     //     "fontStyle": ""
     //   }
     // },
-    {
-      "scope": "entity.name.type",
-      "settings": {
-        "foreground": "#0fc799"
-      }
-    },
     {
       "scope": "variable.parameter",
       "settings": {
@@ -141,7 +178,7 @@
     //   }
     // },
     {
-      "scope": "variable.other.import",
+      "scope": ["variable.other.import", "entity.name.namespace", "entity.name.scope-resolution"],
       "settings": {
         "foreground": "#ff9696",
         "fontStyle": "italic"
@@ -151,6 +188,24 @@
       "scope": "constant.numeric",
       "settings": {
         "foreground": "#b8dbb4"
+      }
+    },
+    {
+      "scope": ["variable.other.property"],
+      "settings": {
+        "foreground": "#a0e1ff"
+      }
+    },
+    {
+      "scope": ["entity.name.function.definition"],
+      "settings": {
+        "foreground": "#ffc86e"
+      }
+    },
+    {
+      "scope": ["meta.preprocessor.macro", "variable.language.this", "entity.name.function.preprocessor"],
+      "settings": {
+        "foreground": "#94558d"
       }
     }
   ]

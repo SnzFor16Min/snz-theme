@@ -2,6 +2,11 @@
 
 All notable changes to Snz's Theme will be documented in this file.
 
+## v0.0.3
+
+- Supports C++
+
+
 ## v0.0.2
 
 - Update license & icon
