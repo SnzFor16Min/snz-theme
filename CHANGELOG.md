@@ -2,6 +2,11 @@
 
 All notable changes to Snz's Theme will be documented in this file.
 
+## v0.0.4/5
+
+- Supports Shell
+- Update colors
+
 ## v0.0.3
 
 - Supports C++
