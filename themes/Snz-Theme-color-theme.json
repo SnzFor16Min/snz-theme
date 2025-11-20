@@ -138,7 +138,8 @@
         "keyword.operator.pointer",
         "keyword.operator.shell",
         "punctuation.separator.statement",
-        "keyword.operator.pipe"
+        "keyword.operator.pipe",
+        "keyword.operator.logical.shell",
       ],
       "settings": {
         "foreground": "#ffffff"
@@ -170,10 +171,10 @@
         "keyword.operator.noexcept",
         "storage.type.function",
         "keyword.operator.ellipsis",
-        "keyword.operator.logical.shell",
         "keyword.operator.redirect",
         "storage.type.string",
-        "support.function.builtin"
+        "support.function.builtin",
+        "keyword.operator.unpacking",
       ],
       "settings": {
         "foreground": "#C88CDC"
@@ -188,12 +189,15 @@
         "support.variable.magic",
         "constant.other.placeholder",
         "punctuation.definition.list",
+        "punctuation.definition.block.sequence.item",
         "keyword.operator.quantifier.regexp",
         "keyword.operator.disjunction.regexp",
         "support.other.parenthesis",
         "keyword.operator.pattern.case.default.shell",
         "punctuation.separator.regex.alternation",
-        "punctuation.definition.regex.arbitrary-repetition"
+        "punctuation.definition.regex.arbitrary-repetition",
+        "keyword.operator.redirect.stderr",
+        "keyword.operator.redirect.stdout"
       ],
       "settings": {
         "foreground": "#4ec6ff"
@@ -232,7 +236,14 @@
       }
     },
     {
-      "scope": ["constant.character.escape", "constant.other.option", "keyword.operator.redirect.stderr"],
+      "scope": [
+        "constant.character.escape",
+        "constant.other.option",
+        "entity.name.tag",
+        "support.type.property-name",
+        "variable.parameter.function-call",
+        "variable.parameter.function",
+      ],
       "settings": {
         "foreground": "#ff9696"
       }
@@ -242,14 +253,16 @@
         "constant.numeric.decimal",
         "constant.numeric.exponent",
         "constant.numeric.hexadecimal",
-        "constant.numeric.integer"
+        "constant.numeric.integer",
+        "constant.numeric.json",
+        "constant.numeric.dec",
       ],
       "settings": {
         "foreground": "#b8dbb4"
       }
     },
     {
-      "scope": ["variable.other.property", "entity.other.attribute-name.shell"],
+      "scope": ["variable.other.property", "entity.other.attribute-name"],
       "settings": {
         "foreground": "#a0e1ff"
       }
@@ -260,7 +273,8 @@
         "punctuation.definition.subshell",
         "punctuation.definition.evaluation",
         "entity.name.function.shell",
-        "keyword.operator.expansion.shell"
+        "keyword.operator.expansion.shell",
+        "punctuation.separator.statement.background",
       ],
       "settings": {
         "foreground": "#ffc86e"
@@ -286,12 +300,6 @@
       "scope": ["constant.character.escape.line-continuation"],
       "settings": {
         "foreground": "#bbbbbb"
-      }
-    },
-    {
-      "scope": ["meta.map.key"],
-      "settings": {
-        "fontStyle": "bold"
       }
     },
     {
