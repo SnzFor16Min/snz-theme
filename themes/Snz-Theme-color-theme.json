@@ -45,6 +45,7 @@
     // "class.builtin": "#4d9fe3",
     "type": "#49d8bb",
     "type.defaultLibrary": "#4d9fe3",
+    "typeParameter": "#94558d",
     "namespace": {
       "foreground": "#ff9696",
       "italic": true
@@ -130,7 +131,6 @@
         "keyword.operator.arithmetic",
         "keyword.operator.logical.go",
         "keyword.operator.logical.cpp",
-        "keyword.operator.address",
         "keyword.operator.increment",
         "keyword.operator.decrement",
         "keyword.operator.bitwise",
@@ -175,6 +175,8 @@
         "storage.type.string",
         "support.function.builtin",
         "keyword.operator.unpacking",
+        "keyword.operator.address",
+        "punctuation.definition.range",
       ],
       "settings": {
         "foreground": "#C88CDC"
@@ -256,6 +258,8 @@
         "constant.numeric.integer",
         "constant.numeric.json",
         "constant.numeric.dec",
+        "meta.diff.index.git",
+        "meta.toc-list.line-number",
       ],
       "settings": {
         "foreground": "#b8dbb4"
@@ -275,6 +279,7 @@
         "entity.name.function.shell",
         "keyword.operator.expansion.shell",
         "punctuation.separator.statement.background",
+        "meta.diff.header.git",
       ],
       "settings": {
         "foreground": "#ffc86e"
@@ -307,6 +312,18 @@
       "settings": {
         "foreground": "#839496"
       }
-    }
+    },
+    {
+      "scope": ["markup.deleted", "meta.diff.header.from-file"],
+      "settings": {
+        "foreground": "#ff5c7c"
+      }
+    },
+    {
+      "scope": ["markup.inserted", "markup.changed", "meta.diff.header.to-file"],
+      "settings": {
+        "foreground": "#96BE78"
+      }
+    },
   ]
 }
