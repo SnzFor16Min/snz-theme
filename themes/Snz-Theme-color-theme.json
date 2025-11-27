@@ -5,6 +5,7 @@
   "colors": {
     "activityBar.background": "#2b2b2b",
     "editor.background": "#2b2b2b",
+    "editor.wordHighlightBackground": "#463264fe",
     "editorCursor.foreground": "#55a5ff",
     "editorHoverWidget.background": "#2b2b2b",
     "editorHoverWidget.border": "#3f3f3f",

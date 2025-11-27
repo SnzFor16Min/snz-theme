@@ -2,6 +2,11 @@
 
 All notable changes to Snz's Theme will be documented in this file.
 
+## v0.0.8
+
+- Update highlight color
+
+
 ## v0.0.7
 
 - Supports Git diff
