@@ -5,13 +5,19 @@
   "description": "Snz's customized theme",
   "icon": "icon.png",
   "license": "MIT",
+  "maintainers": [
+    "Jiaxin Guo (郭佳鑫)"
+  ],
+  "contributors": [
+    "Jiaxin Guo (郭佳鑫)"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/SnzFor16Min/snz-theme.git"
   },
-  "version": "0.0.8",
+  "version": "0.0.11",
   "engines": {
-    "vscode": "^1.105.0"
+    "vscode": "^1.13.0"
   },
   "categories": [
     "Themes"
@@ -19,6 +25,7 @@
   "keywords": [
     "dark",
     "theme",
+    "color-theme",
     "custom",
     "snz",
     "go",

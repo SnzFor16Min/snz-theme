@@ -29,7 +29,11 @@
     "editorBracketHighlight.foreground4": "#49C7A2",
     "editorBracketHighlight.foreground5": "#C28F5C",
     "editorBracketHighlight.foreground6": "#7EC59A",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#ff5c7c"
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff5c7c",
+		"tab.activeBorderTop": "#f9826c",
+		"tab.unfocusedActiveBorder": "#24292e",
+		"tab.unfocusedActiveBorderTop": "#1b1f23",
+		"tab.unfocusedHoverBackground": "#24292e",
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -63,6 +67,7 @@
     // "function": "#e4e0ac",
     "function.declaration": "#ffc86e",
     "function.definition": "#ffc86e",
+    "variable.definition.signature": "#ffc86e",
     "function.builtin": "#4d9fe3",
     "function.defaultLibrary": "#c88cdc",
     // "method": "#e4e0ac",
@@ -178,6 +183,7 @@
         "keyword.operator.unpacking",
         "keyword.operator.address",
         "punctuation.definition.range",
+        "punctuation.terminator.go",
       ],
       "settings": {
         "foreground": "#C88CDC"
