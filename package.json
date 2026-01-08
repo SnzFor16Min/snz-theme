@@ -15,7 +15,7 @@
     "type": "git",
     "url": "https://github.com/SnzFor16Min/snz-theme.git"
   },
-  "version": "0.0.11",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.13.0"
   },
@@ -39,6 +39,14 @@
         "uiTheme": "vs-dark",
         "path": "./themes/Snz-Theme-color-theme.json"
       }
-    ]
+    ],
+    "configurationDefaults": {
+      "editor.semanticHighlighting.enabled": true,
+      "go.useLanguageServer": true,
+      "gopls": {
+        "ui.semanticTokens": true
+      },
+      "go.diagnostic.vulncheck": "Imports"
+    }
   }
 }

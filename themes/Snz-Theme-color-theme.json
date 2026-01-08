@@ -302,7 +302,8 @@
         "variable.language.special.shell",
         "punctuation.definition.variable.shell",
         "variable.parameter.positional",
-        "support.other.escape.special.regexp"
+        "support.other.escape.special.regexp",
+        "variable.language.special.wildcard.shell",
       ],
       "settings": {
         "foreground": "#94558d"

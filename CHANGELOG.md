@@ -2,6 +2,16 @@
 
 All notable changes to Snz's Theme will be documented in this file.
 
+## v0.1.1
+
+- Update highlight color
+
+
+## v0.1.0
+
+- Enable default Go configuration
+
+
 ## v0.0.8~11
 
 - Update highlight color
