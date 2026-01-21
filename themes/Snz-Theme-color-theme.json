@@ -265,6 +265,7 @@
         "constant.numeric.integer",
         "constant.numeric.json",
         "constant.numeric.dec",
+        "constant.numeric.float",
         "meta.diff.index.git",
         "meta.toc-list.line-number",
       ],

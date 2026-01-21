@@ -2,7 +2,7 @@
 
 All notable changes to Snz's Theme will be documented in this file.
 
-## v0.1.1
+## v0.1.1~2
 
 - Update highlight color
 
