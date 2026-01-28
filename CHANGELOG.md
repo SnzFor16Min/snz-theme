@@ -2,6 +2,12 @@
 
 All notable changes to Snz's Theme will be documented in this file.
 
+## v0.2.0
+
+- Supports JavaScript
+- Better supports Go, C++, and Python
+
+
 ## v0.1.1~2
 
 - Update highlight color
