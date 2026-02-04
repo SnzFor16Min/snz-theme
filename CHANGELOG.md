@@ -2,6 +2,11 @@
 
 All notable changes to Snz's Theme will be documented in this file.
 
+## v0.2.1
+
+- Update highlight color for `go.mod` and `go.sum`
+
+
 ## v0.2.0
 
 - Supports JavaScript

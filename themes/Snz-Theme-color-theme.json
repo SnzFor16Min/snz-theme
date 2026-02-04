@@ -212,6 +212,8 @@
         "keyword.operator.rest.js",
         "keyword.operator.expression",
         "keyword.operator.spread.js",
+        "keyword.go.mod",
+        "go.sum",
       ],
       "settings": {
         "foreground": "#C88CDC"
