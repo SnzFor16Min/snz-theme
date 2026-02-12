@@ -403,6 +403,7 @@
         "markup.bold.markdown",
         "markup.bold.textbf.latex",
         "entity.name.section.latex",
+        "variable.other.label.go",
       ],
       "settings": {
         "fontStyle": "bold"

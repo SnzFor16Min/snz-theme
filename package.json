@@ -15,7 +15,7 @@
     "type": "git",
     "url": "https://github.com/SnzFor16Min/snz-theme.git"
   },
-  "version": "0.2.2",
+  "version": "0.2.3",
   "engines": {
     "vscode": "^1.13.0"
   },
