@@ -88,13 +88,17 @@
       }
     },
     {
-      "scope": ["entity.name.type", "meta.head.struct.cpp"],
+      "scope": ["entity.name.type", "meta.head.struct.cpp",
+        "variable.parameter.definition.label.latex",
+        "constant.other.reference.label.latex",
+        "constant.other.reference.citation.latex",
+      ],
       "settings": {
         "foreground": "#49d8bb"
       }
     },
     {
-      "scope": ["storage.type.string", "constant.language", "storage.type.built-in", "storage.type.numeric", "storage.type.string.go", "storage.type.error.go", "entity.name.type.comparable.go", "storage.type.integral", "support.type.built-in.posix-reserved"],
+      "scope": ["storage.type.string", "constant.language", "storage.type.built-in", "storage.type.numeric", "storage.type.string.go", "storage.type.error.go", "entity.name.type.comparable.go", "storage.type.integral", "support.type.built-in.posix-reserved", "storage.type.boolean.go"],
       "settings": {
         "foreground": "#4d9fe3"
       }
@@ -128,6 +132,8 @@
         "support.function",
         "keyword.operator.negation.regexp",
         "keyword.other.unit.user-defined",
+        "constant.other.math.tex",
+        "punctuation.definition.quote.begin.markdown",
       ],
       "settings": {
         "foreground": "#e4e0ac"
@@ -151,6 +157,7 @@
         "keyword.operator.pipe",
         "keyword.operator.logical.shell",
         "punctuation.separator.dot-access",
+        "punctuation.math.operator.tex",
       ],
       "settings": {
         "foreground": "#ffffff"
@@ -214,6 +221,8 @@
         "keyword.operator.spread.js",
         "keyword.go.mod",
         "go.sum",
+        "constant.character.math.tex",
+        "keyword.command",
       ],
       "settings": {
         "foreground": "#C88CDC"
@@ -274,7 +283,7 @@
     //   }
     // },
     {
-      "scope": ["variable.other.import", "entity.name.namespace", "entity.name.scope-resolution", "entity.name.type.package"],
+      "scope": ["variable.other.import", "entity.name.namespace", "entity.name.scope-resolution", "entity.name.type.package", "support.class.latex"],
       "settings": {
         "foreground": "#ff9696",
         "fontStyle": "italic"
@@ -315,7 +324,7 @@
       }
     },
     {
-      "scope": ["variable.other.property", "entity.other.attribute-name", "variable.other.declare", "variable.object.property"],
+      "scope": ["variable.other.property", "entity.other.attribute-name", "variable.other.declare", "variable.object.property", "support.function.key.bibtex"],
       "settings": {
         "foreground": "#a0e1ff"
       }
@@ -349,6 +358,8 @@
         "variable.parameter.positional",
         "support.other.escape.special.regexp",
         "variable.language.special.wildcard.shell",
+        "constant.other.general.math.tex",
+        "variable.parameter.batchfile"
       ],
       "settings": {
         "foreground": "#94558d"
@@ -376,6 +387,31 @@
       "scope": ["markup.inserted", "markup.changed", "meta.diff.header.to-file"],
       "settings": {
         "foreground": "#96BE78"
+      }
+    },
+    {
+      "scope": [
+        "markup.italic.markdown",
+        "markup.italic.textit.latex",
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "markup.bold.markdown",
+        "markup.bold.textbf.latex",
+        "entity.name.section.latex",
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string.other.link.title.markdown"],
+      "settings": {
+        "foreground": "#99C3FF"
       }
     },
   ]
