@@ -78,6 +78,7 @@
     // "variable": "#bbbbbb",
     "variable.readonly": "#4ec6ff",
     "variable.defaultLibrary": "#4d9fe3",
+    "variable.static": "#65ceff",
     "string.format": "#4ec6ff"
   },
   "tokenColors": [

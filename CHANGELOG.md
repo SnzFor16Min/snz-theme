@@ -2,16 +2,19 @@
 
 All notable changes to Snz's Theme will be documented in this file.
 
+## v0.2.4~5
+
+- Update highlight color for static(global/package-level in Go) variables
+
+
 ## v0.2.3
 
 - Embolden Go labels
 
 
-
 ## v0.2.2
 
 - Update highlight color for Markdown, $\LaTeX$
-
 
 
 ## v0.2.1
