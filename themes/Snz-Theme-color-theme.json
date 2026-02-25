@@ -135,6 +135,8 @@
         "keyword.other.unit.user-defined",
         "constant.other.math.tex",
         "punctuation.definition.quote.begin.markdown",
+        "punctuation.definition.markdown",
+        "fenced_code.block.language.markdown",
       ],
       "settings": {
         "foreground": "#e4e0ac"
@@ -325,7 +327,7 @@
       }
     },
     {
-      "scope": ["variable.other.property", "entity.other.attribute-name", "variable.other.declare", "variable.object.property", "support.function.key.bibtex"],
+      "scope": ["variable.other.property", "entity.other.attribute-name", "variable.other.declare", "variable.object.property", "support.function.key.bibtex", "markup.inline.raw.string.markdown"],
       "settings": {
         "foreground": "#a0e1ff"
       }
@@ -413,7 +415,8 @@
     {
       "scope": ["string.other.link.title.markdown"],
       "settings": {
-        "foreground": "#99C3FF"
+        "foreground": "#99C3FF",
+        "fontStyle": "underline"
       }
     },
   ]

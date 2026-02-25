@@ -2,6 +2,11 @@
 
 All notable changes to Snz's Theme will be documented in this file.
 
+## v0.2.6
+
+- Update highlight color for Markdown
+
+
 ## v0.2.4~5
 
 - Update highlight color for static(global/package-level in Go) variables
