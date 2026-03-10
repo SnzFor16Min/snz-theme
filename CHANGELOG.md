@@ -2,6 +2,11 @@
 
 All notable changes to Snz's Theme will be documented in this file.
 
+## v0.2.7
+
+- Update highlight color for Python field
+
+
 ## v0.2.6
 
 - Update highlight color for Markdown

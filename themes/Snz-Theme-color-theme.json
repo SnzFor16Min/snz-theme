@@ -327,7 +327,9 @@
       }
     },
     {
-      "scope": ["variable.other.property", "entity.other.attribute-name", "variable.other.declare", "variable.object.property", "support.function.key.bibtex", "markup.inline.raw.string.markdown"],
+      "scope": ["variable.other.property", "entity.other.attribute-name", "variable.other.declare", "variable.object.property", "support.function.key.bibtex", "markup.inline.raw.string.markdown",
+        "meta.attribute.python",
+      ],
       "settings": {
         "foreground": "#a0e1ff"
       }
