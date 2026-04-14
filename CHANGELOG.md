@@ -2,9 +2,17 @@
 
 All notable changes to Snz's Theme will be documented in this file.
 
+## v0.2.9
+
+- Update highlight color for shadowing variables
+
+## v0.2.8
+
+- Update border color of sticky scrolls
+
 ## v0.2.7
 
-- Update highlight color for Python field
+- Update highlight color for Python fields
 
 
 ## v0.2.6

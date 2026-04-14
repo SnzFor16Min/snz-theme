@@ -15,6 +15,7 @@
     "editorLineNumber.foreground": "#555555",
     "editorLineNumber.activeForeground": "#999999",
     "editorGutter.foldingControlForeground": "#6f737a",
+    "editorStickyScroll.border":"#3f3f3f",
     "editor.lineHighlightBackground": "#333333",
     "errorForeground": "#ff5c7c",
     "menu.background": "#2b2b2b",
@@ -79,6 +80,7 @@
     "variable.readonly": "#4ec6ff",
     "variable.defaultLibrary": "#4d9fe3",
     "variable.static": "#65ceff",
+    "variable.shadowing": "#7dbda2",
     "string.format": "#4ec6ff"
   },
   "tokenColors": [
