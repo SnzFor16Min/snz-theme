@@ -101,7 +101,10 @@
       }
     },
     {
-      "scope": ["storage.type.string", "constant.language", "storage.type.built-in", "storage.type.numeric", "storage.type.string.go", "storage.type.error.go", "entity.name.type.comparable.go", "storage.type.integral", "support.type.built-in.posix-reserved", "storage.type.boolean.go"],
+      "scope": ["storage.type.string", "constant.language", "storage.type.built-in", "storage.type.numeric", "storage.type.string.go", "storage.type.error.go", "entity.name.type.comparable.go", "storage.type.integral", "support.type.built-in.posix-reserved", "storage.type.boolean.go",
+        "support.type.primitive",
+        "support.type.builtin",
+      ],
       "settings": {
         "foreground": "#4d9fe3"
       }
@@ -139,6 +142,8 @@
         "punctuation.definition.quote.begin.markdown",
         "punctuation.definition.markdown",
         "fenced_code.block.language.markdown",
+        "entity.name.function.js",
+        "entity.name.function.ts",
       ],
       "settings": {
         "foreground": "#e4e0ac"
@@ -152,6 +157,7 @@
         "keyword.operator.logical.go",
         "keyword.operator.logical.cpp",
         "keyword.operator.logical.js",
+        "keyword.operator.logical.ts",
         "keyword.operator.increment",
         "keyword.operator.decrement",
         "keyword.operator.bitwise",
@@ -228,6 +234,8 @@
         "go.sum",
         "constant.character.math.tex",
         "keyword.command",
+        "storage.type.ts",
+        "keyword.operator.optional.ts",
       ],
       "settings": {
         "foreground": "#C88CDC"
@@ -254,6 +262,7 @@
         "variable.other.constant",
         "variable.other.enummember",
         "storage.type.format",
+        "constant.other.character-class.regexp",
       ],
       "settings": {
         "foreground": "#4ec6ff"
@@ -331,6 +340,7 @@
     {
       "scope": ["variable.other.property", "entity.other.attribute-name", "variable.other.declare", "variable.object.property", "support.function.key.bibtex", "markup.inline.raw.string.markdown",
         "meta.attribute.python",
+        "variable.other.object.property",
       ],
       "settings": {
         "foreground": "#a0e1ff"

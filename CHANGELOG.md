@@ -2,6 +2,11 @@
 
 All notable changes to Snz's Theme will be documented in this file.
 
+## v0.3.0
+
+- Update highlight color for TypeScript
+
+
 ## v0.2.9
 
 - Update highlight color for shadowing variables
