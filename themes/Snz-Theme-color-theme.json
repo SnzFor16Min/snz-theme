@@ -81,6 +81,7 @@
     "variable.defaultLibrary": "#4d9fe3",
     "variable.static": "#65ceff",
     "variable.shadowing": "#7dbda2",
+    "variable.classMember": "#a0e1ff",
     "string.format": "#4ec6ff"
   },
   "tokenColors": [
@@ -263,6 +264,7 @@
         "variable.other.enummember",
         "storage.type.format",
         "constant.other.character-class.regexp",
+        "constant.character.format.placeholder.other",
       ],
       "settings": {
         "foreground": "#4ec6ff"
