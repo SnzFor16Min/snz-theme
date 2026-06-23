@@ -2,6 +2,11 @@
 
 All notable changes to Snz's Theme will be documented in this file.
 
+## v0.4.0
+
+- Update highlight color for C#
+
+
 ## v0.3.1~2
 
 - Update highlight color for Python string placeholder and class member

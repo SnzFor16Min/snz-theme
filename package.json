@@ -2,7 +2,7 @@
   "name": "snz-theme",
   "publisher": "Snz",
   "displayName": "Snz's Theme",
-  "description": "Snz's dark theme for Python, C++, Go, and JavaScript.",
+  "description": "Snz's dark theme for Python, C++, C#, Go, and JavaScript.",
   "icon": "icon.png",
   "license": "MIT",
   "maintainers": [
@@ -15,7 +15,7 @@
     "type": "git",
     "url": "https://github.com/SnzFor16Min/snz-theme.git"
   },
-  "version": "0.3.2",
+  "version": "0.4.0",
   "engines": {
     "vscode": "^1.13.0"
   },
